@@ -12,7 +12,7 @@ const SCRIPT_URL = 'https://connect.facebook.net/en_US/sdk.js';
  *  onLogoutFail: () => void
  * }} params 
  */
-const useFacebookLogin = (params) => {
+const useFacebookSignin = (params) => {
     const { 
         appId, 
         apiVersion, 
@@ -125,4 +125,4 @@ const useFacebookLogin = (params) => {
     }
 }
 
-export default useFacebookLogin;
+export default useFacebookSignin;

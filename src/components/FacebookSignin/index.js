@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import FacebookIcon from '../Icons/facebookIcon';
-import useFacebookLogin from './useFacebookLogin';
+import useFacebookSignin from './useFacebookSignin';
 
 const APP_ID = '3529266280494914';
 const API_VERSION = 'v9.0';
@@ -17,7 +17,7 @@ const FacebookLogin = ({ onLoginSuccess }) => {
         profileData,
         doLogin,
         doLogout,
-        removeScript } = useFacebookLogin({
+        removeScript } = useFacebookSignin({
             appId: APP_ID,
             apiVersion: API_VERSION,
             scopes: FB_SCOPES,

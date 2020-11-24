@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import GoogleLogin from '../GoogleSignIn';
+import GoogleSignIn from '../GoogleSignIn';
 import useGoogleSignout from '../GoogleSignIn/useGoogleSignout'
-import useFacebookSignout from '../FacebookLogin/useFacebookSignout'
-import FacebookLogin from '../FacebookLogin';
+import useFacebookSignout from '../FacebookSignin/useFacebookSignout'
+import FacebookSignin from '../FacebookSignin';
 
 import './index.css';
 
@@ -26,8 +26,8 @@ const App = () => {
 
     return (<div style={{ textAlign: "center" }}>
         <h2>Social Logins</h2>
-        <GoogleLogin onLoginSuccess={onLoginSuccess} />
-        <FacebookLogin onLoginSuccess={onLoginSuccess}  />
+        <GoogleSignIn onLoginSuccess={onLoginSuccess} />
+        <FacebookSignin onLoginSuccess={onLoginSuccess}  />
 
         {loginInfo && (
             <>
