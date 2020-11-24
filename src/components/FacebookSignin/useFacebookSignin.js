@@ -46,6 +46,9 @@ const useFacebookSignin = (params) => {
         console.error('Failed to initialize facebook auth client');
     }
 
+    /**
+     * Loading facebook OAuth script
+     */
     const { isScriptLoaded, removeScript } = useLoadScript({
         id: 'facebook-script',
         scriptUrl: SCRIPT_URL,

@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import GoogleIcon from '../Icons/googleIcon';
 import useGoogleSignIn from './useGoogleSignIn';
 
-const CLIENT_ID = '576745327699-kh5fqibvllnd1rfem6lsme1b1ddukvre.apps.googleusercontent.com';
+const CLIENT_ID = '';
 const SCOPES = 'profile https://www.googleapis.com/auth/user.birthday.read';
 const GOOGLE_PERMISION_SCOPES = 'client:auth2';
 

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import FacebookIcon from '../Icons/facebookIcon';
 import useFacebookSignin from './useFacebookSignin';
 
-const APP_ID = '3529266280494914';
+const APP_ID = '';
 const API_VERSION = 'v9.0';
 const FB_SCOPES = 'public_profile,email';
 
