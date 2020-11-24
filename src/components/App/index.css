@@ -1,0 +1,53 @@
+.login-container {
+    margin-bottom: 1rem;
+}
+
+.social-login-button {
+    border: 1px solid #c9c9c9de;
+    border-radius: 2rem;
+    position: relative;
+    max-width: 360px;
+    margin: auto;
+}
+
+.social-login-button:hover {
+    cursor: pointer;
+}
+
+.social-login-button > .icon {
+    position: absolute;
+    left: 2rem;
+    top: 16px;
+}
+
+.social-login-button > p {
+    text-align: center;
+}
+
+.login-info-container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.login-info-container > .info {
+    flex: 2;
+    text-align: left;
+    margin-right: 1rem;
+    line-height: 2;
+}
+
+.login-info-container > img {
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.logout-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 4rem;
+    background-color: #c7e8ff;
+    border: 1px solid rgb(65 149 208);
+    border-radius: 4px;
+}
