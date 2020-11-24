@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import GoogleSignIn from '../GoogleSignIn';
 import useGoogleSignout from '../GoogleSignIn/useGoogleSignout'
-import useFacebookSignout from '../FacebookSignin/useFacebookSignout'
-import FacebookSignin from '../FacebookSignin';
+import useFacebookSignout from '../FacebookSignIn/useFacebookSignout'
+import FacebookSignin from '../FacebookSignIn';
 
 import './index.css';
 

@@ -6,17 +6,13 @@ const APP_ID = '3529266280494914';
 const API_VERSION = 'v9.0';
 const FB_SCOPES = 'public_profile,email';
 
-const FacebookLogin = ({ onLoginSuccess }) => {
+const FacebookSignIn = ({ onLoginSuccess }) => {
     const onLoginFail = (err) => { console.log('Login Failed', err) };
     const onLogoutFail = (err) => { console.log('Logout Failed', err) };
 
     const {
         isScriptLoaded,
-        isInitializing,
-        isLoggedIn,
-        profileData,
         doLogin,
-        doLogout,
         removeScript } = useFacebookSignin({
             appId: APP_ID,
             apiVersion: API_VERSION,
@@ -42,4 +38,4 @@ const FacebookLogin = ({ onLoginSuccess }) => {
     ) : null;
 }
 
-export default FacebookLogin;
+export default FacebookSignIn;
